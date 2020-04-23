@@ -1,0 +1,37 @@
+-------------------------------------------------------------------------------
+Test set: appium.features.search.AddNumberByKeywordStory
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 6.085 s <<< FAILURE! - in appium.features.search.AddNumberByKeywordStory
+Addition(appium.features.search.AddNumberByKeywordStory)  Time elapsed: 2.143 s  <<< ERROR!
+net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate class io.appium.java_client.AppiumDriver
+	at appium.features.search.AddNumberByKeywordStory.annaCanBrowseTheWeb(AddNumberByKeywordStory.java:34)
+Caused by: net.thucydides.core.webdriver.DriverConfigurationError: 
+Could not instantiate new WebDriver instance of type class io.appium.java_client.AppiumDriver (Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'UiAutomator' and platformName 'Android'. Please check your desired capabilities. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 131 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CHORQ61', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: RemoteDriver
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CHORQ61', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: RemoteDriver). See below for more details.
+	at appium.features.search.AddNumberByKeywordStory.annaCanBrowseTheWeb(AddNumberByKeywordStory.java:34)
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'UiAutomator' and platformName 'Android'. Please check your desired capabilities. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 131 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CHORQ61', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: RemoteDriver
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CHORQ61', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: RemoteDriver
+	at appium.features.search.AddNumberByKeywordStory.annaCanBrowseTheWeb(AddNumberByKeywordStory.java:34)
+Caused by: java.lang.reflect.InvocationTargetException
+	at appium.features.search.AddNumberByKeywordStory.annaCanBrowseTheWeb(AddNumberByKeywordStory.java:34)
+Caused by: org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Could not find a driver for automationName 'UiAutomator' and platformName 'Android'. Please check your desired capabilities. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 131 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CHORQ61', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: RemoteDriver
+	at appium.features.search.AddNumberByKeywordStory.annaCanBrowseTheWeb(AddNumberByKeywordStory.java:34)
+

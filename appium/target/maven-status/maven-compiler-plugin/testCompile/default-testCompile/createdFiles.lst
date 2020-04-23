@@ -1,0 +1,5 @@
+appium\tasks\AddNumber.class
+appium\features\search\AddNumberByKeywordStory.class
+appium\features\search\package-info.class
+appium\question\CalculationResults.class
+appium\ui\CalculationScreen.class
