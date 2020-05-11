@@ -1,4 +1,2 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Calculate number by keyword story","Subtract","FAILURE","2020-05-11T16:28:20.774+07:00[Asia/Bangkok]","0.0","22.4"
-"Calculate number by keyword story","Multiply","FAILURE","2020-05-11T16:28:56.042+07:00[Asia/Bangkok]","0.0","18.03"
-"Calculate number by keyword story","Divide","FAILURE","2020-05-11T16:29:14.201+07:00[Asia/Bangkok]","0.0","17.28"
+"Calculate number by keyword story","Addition","FAILURE","2020-05-11T20:30:52.902+07:00[Asia/Bangkok]","0.0","11.05"

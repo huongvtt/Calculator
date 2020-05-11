@@ -1,12 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="3" name="appium.features.calculator.CalculateNumberByKeywordStory" skipped="0" tests="4" time="69.47" timestamp="2020-05-11 04:28:20"><testcase classname="appium.features.calculator.CalculateNumberByKeywordStory" name="Subtract"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled&#13;
-appium.tasks.CalculateNumber.performAs(CalculateNumber.java:35)&#13;
-appium.features.calculator.CalculateNumberByKeywordStory.Subtract(CalculateNumberByKeywordStory.java:45)&#13;
-</system-err></testcase><testcase classname="appium.features.calculator.CalculateNumberByKeywordStory" name="Addition"><error message="Could not instantiate class org.openqa.selenium.chrome.ChromeDriver" type="net.thucydides.core.webdriver.DriverConfigurationError">Could not instantiate class org.openqa.selenium.chrome.ChromeDriver</error><system-err>Could not instantiate class org.openqa.selenium.chrome.ChromeDriver&#13;
-appium.features.calculator.CalculateNumberByKeywordStory.annaCanBrowseTheWeb(CalculateNumberByKeywordStory.java:29)&#13;
-</system-err></testcase><testcase classname="appium.features.calculator.CalculateNumberByKeywordStory" name="Multiply"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled&#13;
-appium.tasks.CalculateNumber.performAs(CalculateNumber.java:35)&#13;
-appium.features.calculator.CalculateNumberByKeywordStory.Multiply(CalculateNumberByKeywordStory.java:55)&#13;
-</system-err></testcase><testcase classname="appium.features.calculator.CalculateNumberByKeywordStory" name="Divide"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled&#13;
-appium.tasks.CalculateNumber.performAs(CalculateNumber.java:35)&#13;
-appium.features.calculator.CalculateNumberByKeywordStory.Divide(CalculateNumberByKeywordStory.java:66)&#13;
-</system-err></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="appium.features.calculator.CalculateNumberByKeywordStory" skipped="0" tests="4" time="56.36" timestamp="2020-05-11 08:32:22"><testcase classname="appium.features.calculator.CalculateNumberByKeywordStory" name="Subtract"/><testcase classname="appium.features.calculator.CalculateNumberByKeywordStory" name="Addition"><failure message="&#10;Expected: &quot;=140&quot;&#10;     but: was &quot;=240&quot;" type="java.lang.AssertionError">
+Expected: "=140"
+     but: was "=240"</failure><system-err>
+Expected: "=140"
+     but: was "=240"&#13;
+appium.features.calculator.CalculateNumberByKeywordStory.Addition(CalculateNumberByKeywordStory.java:38)&#13;
+</system-err></testcase><testcase classname="appium.features.calculator.CalculateNumberByKeywordStory" name="Multiply"/><testcase classname="appium.features.calculator.CalculateNumberByKeywordStory" name="Divide"/></testsuite>

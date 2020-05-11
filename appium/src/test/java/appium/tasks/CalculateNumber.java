@@ -36,7 +36,7 @@ public class CalculateNumber implements Task {
                 Click.on(CalculationScreen.GET_OPERATOR(this.operator))
         );
 
-        myDigits = this.firstNumber.toString().toCharArray();
+        myDigits = this.secondNumber.toString().toCharArray();
         countDigits = myDigits.length;
         for (int i=0; i<countDigits; i++){
             actor.attemptsTo(

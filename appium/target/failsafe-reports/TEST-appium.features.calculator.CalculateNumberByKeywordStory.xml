@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report.xsd" name="appium.features.calculator.CalculateNumberByKeywordStory" time="76.416" tests="4" errors="4" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report.xsd" name="appium.features.calculator.CalculateNumberByKeywordStory" time="57.838" tests="4" errors="0" skipped="0" failures="1">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\Admin\AppData\Local\Temp\surefire6073980073737066987\surefirebooter6454419594811772688.jar C:\Users\Admin\AppData\Local\Temp\surefire6073980073737066987 2020-05-11T16-28-17_279-jvmRun1 surefire1008719299287604419tmp surefire_02090874389403745325tmp"/>
+    <property name="sun.java.command" value="C:\Users\Admin\AppData\Local\Temp\surefire6022030158515385439\surefirebooter3338852633036510997.jar C:\Users\Admin\AppData\Local\Temp\surefire6022030158515385439 2020-05-11T20-30-31_364-jvmRun1 surefire4936976909430548775tmp surefire_0829359601476957397tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\Admin\Desktop\Automation\Calculator\appium\target\test-classes;C:\Users\Admin\Desktop\Automation\Calculator\appium\target\appium-1.jar;C:\Users\Admin\.m2\repository\io\appium\java-client\7.3.0\java-client-7.3.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Admin\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Admin\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Admin\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.9\httpclient-4.5.9.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.11\httpcore-4.4.11.jar;C:\Users\Admin\.m2\repository\cglib\cglib\3.2.12\cglib-3.2.12.jar;C:\Users\Admin\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar;C:\Users\Admin\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\Admin\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\Admin\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-context\5.1.8.RELEASE\spring-context-5.1.8.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-aop\5.1.8.RELEASE\spring-aop-5.1.8.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-beans\5.1.8.RELEASE\spring-beans-5.1.8.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-core\5.1.8.RELEASE\spring-core-5.1.8.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-jcl\5.1.8.RELEASE\spring-jcl-5.1.8.RELEASE.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-expression\5.1.8.RELEASE\spring-expression-5.1.8.RELEASE.jar;C:\Users\Admin\.m2\repository\org\aspectj\aspectjweaver\1.9.4\aspectjweaver-1.9.4.jar;C:\Users\Admin\.m2\repository\org\slf4j\slf4j-api\1.7.26\slf4j-api-1.7.26.jar;C:\Users\Admin\.m2\repository\net\serenity-bdd\serenity-core\2.0.81\serenity-core-2.0.81.jar;C:\Users\Admin\.m2\repository\net\bytebuddy\byte-buddy\1.10.1\byte-buddy-1.10.1.jar;C:\Users\Admin\.m2\repository\net\bytebuddy\byte-buddy-agent\1.10.1\byte-buddy-agent-1.10.1.jar;C:\Users\Admin\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Admin\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Admin\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Admin\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Admin\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Admin\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Admin\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2.jar;C:\Users\Admin\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Admin\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Admin\.m2\repository\org\ow2\asm\asm\7.2\asm-7.2.jar;C:\Users\Admin\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Admin\.m2\repository\org\objenesis\objenesis\3.0.1\objenesis-3.0.1.jar;C:\Users\Admin\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-core\2.4.0\cucumber-core-2.4.0.jar;C:\Users\Admin\.m2\repository\info\cukes\cucumber-html\0.2.6\cucumber-html-0.2.6.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-jvm-deps\1.0.6\cucumber-jvm-deps-1.0.6.jar;C:\Users\Admin\.m2\repository\io\cucumber\gherkin\5.0.0\gherkin-5.0.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\tag-expressions\1.1.1\tag-expressions-1.1.1.jar;C:\Users\Admin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Admin\.m2\repository\io\vavr\vavr\0.9.0\vavr-0.9.0.jar;C:\Users\Admin\.m2\repository\io\vavr\vavr-match\0.9.0\vavr-match-0.9.0.jar;C:\Users\Admin\.m2\repository\javax\xml\bind\jaxb-api\2.2.12\jaxb-api-2.2.12.jar;C:\Users\Admin\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar;C:\Users\Admin\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.0.1\jaxb-impl-2.3.0.1.jar;C:\Users\Admin\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\Admin\.m2\repository\org\mockito\mockito-core\3.1.0\mockito-core-3.1.0.jar;C:\Users\Admin\.m2\repository\net\serenity-bdd\serenity-report-resources\2.0.81\serenity-report-resources-2.0.81.jar;C:\Users\Admin\.m2\repository\net\serenity-bdd\serenity-model\2.0.81\serenity-model-2.0.81.jar;C:\Users\Admin\.m2\repository\commons-net\commons-net\3.6\commons-net-3.6.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-text\1.6\commons-text-1.6.jar;C:\Users\Admin\.m2\repository\es\nitaur\markdown\txtmark\0.16\txtmark-0.16.jar;C:\Users\Admin\.m2\repository\net\serenity-bdd\serenity-reports\2.0.81\serenity-reports-2.0.81.jar;C:\Users\Admin\.m2\repository\net\serenity-bdd\serenity-stats\2.0.81\serenity-stats-2.0.81.jar;C:\Users\Admin\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.3.31\kotlin-stdlib-1.3.31.jar;C:\Users\Admin\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.3.31\kotlin-stdlib-common-1.3.31.jar;C:\Users\Admin\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\Admin\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Admin\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\Admin\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\Admin\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Admin\.m2\repository\com\paulhammant\ngwebdriver\1.1.4\ngwebdriver-1.1.4.jar;C:\Users\Admin\.m2\repository\com\codeborne\phantomjsdriver\1.4.4\phantomjsdriver-1.4.4.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.36.0\htmlunit-driver-2.36.0.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-context-support\5.1.2.RELEASE\spring-context-support-5.1.2.RELEASE.jar;C:\Users\Admin\.m2\repository\org\codehaus\groovy\groovy\2.5.5\groovy-2.5.5.jar;C:\Users\Admin\.m2\repository\net\sf\opencsv\opencsv\2.0\opencsv-2.0.jar;C:\Users\Admin\.m2\repository\commons-beanutils\commons-beanutils-core\1.8.3\commons-beanutils-core-1.8.3.jar;C:\Users\Admin\.m2\repository\joda-time\joda-time\2.7\joda-time-2.7.jar;C:\Users\Admin\.m2\repository\com\thoughtworks\xstream\xstream\1.4.9\xstream-1.4.9.jar;C:\Users\Admin\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;C:\Users\Admin\.m2\repository\xpp3\xpp3_min\1.1.4c\xpp3_min-1.1.4c.jar;C:\Users\Admin\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Admin\.m2\repository\org\freemarker\freemarker\2.3.28\freemarker-2.3.28.jar;C:\Users\Admin\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.12\jxl-2.6.12.jar;C:\Users\Admin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Admin\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\Admin\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.36.0\htmlunit-2.36.0.jar;C:\Users\Admin\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.36.0\htmlunit-core-js-2.36.0.jar;C:\Users\Admin\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.36.0\neko-htmlunit-2.36.0.jar;C:\Users\Admin\.m2\repository\xerces\xercesImpl\2.12.0\xercesImpl-2.12.0.jar;C:\Users\Admin\.m2\repository\net\sourceforge\htmlunit\htmlunit-cssparser\1.5.0\htmlunit-cssparser-1.5.0.jar;C:\Users\Admin\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Admin\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.20.v20190813\websocket-client-9.4.20.v20190813.jar;C:\Users\Admin\.m2\repository\org\eclipse\jetty\jetty-client\9.4.20.v20190813\jetty-client-9.4.20.v20190813.jar;C:\Users\Admin\.m2\repository\org\eclipse\jetty\jetty-http\9.4.20.v20190813\jetty-http-9.4.20.v20190813.jar;C:\Users\Admin\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.20.v20190813\jetty-xml-9.4.20.v20190813.jar;C:\Users\Admin\.m2\repository\org\eclipse\jetty\jetty-util\9.4.20.v20190813\jetty-util-9.4.20.v20190813.jar;C:\Users\Admin\.m2\repository\org\eclipse\jetty\jetty-io\9.4.20.v20190813\jetty-io-9.4.20.v20190813.jar;C:\Users\Admin\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.20.v20190813\websocket-common-9.4.20.v20190813.jar;C:\Users\Admin\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.20.v20190813\websocket-api-9.4.20.v20190813.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpmime\4.5.5\httpmime-4.5.5.jar;C:\Users\Admin\.m2\repository\org\fluentlenium\fluentlenium-core\0.10.2\fluentlenium-core-0.10.2.jar;C:\Users\Admin\.m2\repository\com\jhlabs\filters\2.0.235\filters-2.0.235.jar;C:\Users\Admin\.m2\repository\org\asciidoctor\asciidoctorj\1.5.6\asciidoctorj-1.5.6.jar;C:\Users\Admin\.m2\repository\org\jruby\jruby-complete\1.7.26\jruby-complete-1.7.26.jar;C:\Users\Admin\.m2\repository\org\imgscalr\imgscalr-lib\4.2\imgscalr-lib-4.2.jar;C:\Users\Admin\.m2\repository\javax\el\javax.el-api\2.2.4\javax.el-api-2.2.4.jar;C:\Users\Admin\.m2\repository\org\glassfish\web\javax.el\2.2.4\javax.el-2.2.4.jar;C:\Users\Admin\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\Admin\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\Admin\.m2\repository\org\awaitility\awaitility\4.0.1\awaitility-4.0.1.jar;C:\Users\Admin\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Admin\.m2\repository\com\typesafe\config\1.3.1\config-1.3.1.jar;C:\Users\Admin\.m2\repository\org\jsoup\jsoup\1.10.3\jsoup-1.10.3.jar;C:\Users\Admin\.m2\repository\com\google\jimfs\jimfs\1.1\jimfs-1.1.jar;C:\Users\Admin\.m2\repository\com\vladsch\flexmark\flexmark-all\0.34.30\flexmark-all-0.34.30.jar;C:\Users\Admin\.m2\repository\com\vladsch\flexmark\flexmark\0.34.30\flexmark-0.34.30.jar;C:\Users\Admin\.m2\repository\com\vladsch\flexmark\flexmark-ext-abbreviation\0.34.30\flexmark-ext-abbreviation-0.34.30.jar;C:\Users\Admin\.m2\repository\com\vladsch\flexmark\flexmark-ext-admonition\0.34.30\flexmark-ext-admonition-0.34.30.jar;C:\Users\Admin\.m2\repository\com\vladsch\flexmark\flexmark-ext-anchorlink\0.34.30\flexmark-ext-anchorlink-0.34.30.jar;C:\Users\Admin\.m2\repository\com\vladsch\flexmark\flexmark-ext-aside\0.34.30\flexmark-ext-aside-0.34.30.jar;C:\Users\Admin\.m2\repository\com\vladsch\flexmark\flexmark-ext-attributes\0.34.30\flexmark-ext-attributes-0.34.30.jar;C:\Users\Admin\.m2\repository\com\vladsch\flexmark\flexmark-ext-autolink\0.34.30\flexmark-ext-autolink-0.34.30.jar;C:\Users\Admin\.m2\repository\org\nibor\autolink\autolink\0.6.0\autolink-0.6.0.jar;C:\Users\Admin\.m2\repository\com\vladsch\flexmark\flexmark-ext-definition\0.34.30\flexmark-ext-definition-0.34.30.jar;C:\Users\Admin\.m2\repository\com\vladsch\flexmark\flexmark-ext-emoji\0.34.30\flexmark-ext-emoji-0.34.30.jar;C:\Users\Admin\.m2\repository\com\vladsch\flexmark\flexmark-ext-enumerated-reference\0.34.30\flexmark-ext-enumerated-reference-0.34.30.jar;C:\Users\Admin\.m2\repository\com\vladsch\flexmark\flexmark-ext-escaped-character\0.34.30\flexmark-ext-escaped-character-0.34.30.jar;C:\Users\Admin\.m2\repository\com\vladsch\flexmark\flexmark-ext-footnotes\0.34.30\flexmark-ext-footnotes-0.34.30.jar;C:\Users\Admin\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-issues\0.34.30\flexmark-ext-gfm-issues-0.34.30.jar;C:\Users\Admin\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-strikethrough\0.34.30\flexmark-ext-gfm-strikethrough-0.34.30.jar;C:\Users\Admin\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tables\0.34.30\flexmark-ext-gfm-tables-0.34.30.jar;C:\Users\Admin\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tasklist\0.34.30\flexmark-ext-gfm-tasklist-0.34.30.jar;C:\Users\Admin\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-users\0.34.30\flexmark-ext-gfm-users-0.34.30.jar;C:\Users\Admin\.m2\repository\com\vladsch\flexmark\flexmark-ext-gitlab\0.34.30\flexmark-ext-gitlab-0.34.30.jar;C:\Users\Admin\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-front-matter\0.34.30\flexmark-ext-jekyll-front-matter-0.34.30.jar;C:\Users\Admin\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-tag\0.34.30\flexmark-ext-jekyll-tag-0.34.30.jar;C:\Users\Admin\.m2\repository\com\vladsch\flexmark\flexmark-ext-media-tags\0.34.30\flexmark-ext-media-tags-0.34.30.jar;C:\Users\Admin\.m2\repository\com\vladsch\flexmark\flexmark-test-util\0.34.30\flexmark-test-util-0.34.30.jar;C:\Users\Admin\.m2\repository\com\vladsch\flexmark\flexmark-ext-ins\0.34.30\flexmark-ext-ins-0.34.30.jar;C:\Users\Admin\.m2\repository\com\vladsch\flexmark\flexmark-ext-xwiki-macros\0.34.30\flexmark-ext-xwiki-macros-0.34.30.jar;C:\Users\Admin\.m2\repository\com\vladsch\flexmark\flexmark-ext-superscript\0.34.30\flexmark-ext-superscript-0.34.30.jar;C:\Users\Admin\.m2\repository\com\vladsch\flexmark\flexmark-ext-tables\0.34.30\flexmark-ext-tables-0.34.30.jar;C:\Users\Admin\.m2\repository\com\vladsch\flexmark\flexmark-ext-toc\0.34.30\flexmark-ext-toc-0.34.30.jar;C:\Users\Admin\.m2\repository\com\vladsch\flexmark\flexmark-ext-typographic\0.34.30\flexmark-ext-typographic-0.34.30.jar;C:\Users\Admin\.m2\repository\com\vladsch\flexmark\flexmark-ext-wikilink\0.34.30\flexmark-ext-wikilink-0.34.30.jar;C:\Users\Admin\.m2\repository\com\vladsch\flexmark\flexmark-ext-yaml-front-matter\0.34.30\flexmark-ext-yaml-front-matter-0.34.30.jar;C:\Users\Admin\.m2\repository\com\vladsch\flexmark\flexmark-ext-youtube-embedded\0.34.30\flexmark-ext-youtube-embedded-0.34.30.jar;C:\Users\Admin\.m2\repository\com\vladsch\flexmark\flexmark-formatter\0.34.30\flexmark-formatter-0.34.30.jar;C:\Users\Admin\.m2\repository\com\vladsch\flexmark\flexmark-html-parser\0.34.30\flexmark-html-parser-0.34.30.jar;C:\Users\Admin\.m2\repository\com\vladsch\flexmark\flexmark-jira-converter\0.34.30\flexmark-jira-converter-0.34.30.jar;C:\Users\Admin\.m2\repository\com\vladsch\flexmark\flexmark-pdf-converter\0.34.30\flexmark-pdf-converter-0.34.30.jar;C:\Users\Admin\.m2\repository\com\openhtmltopdf\openhtmltopdf-core\0.0.1-RC13\openhtmltopdf-core-0.0.1-RC13.jar;C:\Users\Admin\.m2\repository\com\openhtmltopdf\openhtmltopdf-pdfbox\0.0.1-RC13\openhtmltopdf-pdfbox-0.0.1-RC13.jar;C:\Users\Admin\.m2\repository\org\apache\pdfbox\pdfbox\2.0.8\pdfbox-2.0.8.jar;C:\Users\Admin\.m2\repository\org\apache\pdfbox\fontbox\2.0.8\fontbox-2.0.8.jar;C:\Users\Admin\.m2\repository\org\apache\pdfbox\xmpbox\2.0.8\xmpbox-2.0.8.jar;C:\Users\Admin\.m2\repository\de\rototor\pdfbox\graphics2d\0.12\graphics2d-0.12.jar;C:\Users\Admin\.m2\repository\com\openhtmltopdf\openhtmltopdf-rtl-support\0.0.1-RC13\openhtmltopdf-rtl-support-0.0.1-RC13.jar;C:\Users\Admin\.m2\repository\com\ibm\icu\icu4j\59.1\icu4j-59.1.jar;C:\Users\Admin\.m2\repository\com\openhtmltopdf\openhtmltopdf-jsoup-dom-converter\0.0.1-RC13\openhtmltopdf-jsoup-dom-converter-0.0.1-RC13.jar;C:\Users\Admin\.m2\repository\com\vladsch\flexmark\flexmark-profile-pegdown\0.34.30\flexmark-profile-pegdown-0.34.30.jar;C:\Users\Admin\.m2\repository\com\vladsch\flexmark\flexmark-util\0.34.30\flexmark-util-0.34.30.jar;C:\Users\Admin\.m2\repository\com\vladsch\flexmark\flexmark-youtrack-converter\0.34.30\flexmark-youtrack-converter-0.34.30.jar;C:\Users\Admin\.m2\repository\net\serenity-bdd\serenity-screenplay\2.0.81\serenity-screenplay-2.0.81.jar;C:\Users\Admin\.m2\repository\net\serenity-bdd\serenity-screenplay-webdriver\2.0.81\serenity-screenplay-webdriver-2.0.81.jar;C:\Users\Admin\.m2\repository\net\serenity-bdd\serenity-junit\2.0.81\serenity-junit-2.0.81.jar;C:\Users\Admin\.m2\repository\org\slf4j\slf4j-simple\1.7.7\slf4j-simple-1.7.7.jar;C:\Users\Admin\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Admin\.m2\repository\org\assertj\assertj-core\3.8.0\assertj-core-3.8.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Admin"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Admin\AppData\Local\Temp\surefire6073980073737066987\surefirebooter6454419594811772688.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Admin\AppData\Local\Temp\surefire6022030158515385439\surefirebooter3338852633036510997.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_211\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,127 +60,25 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="Subtract" classname="appium.features.calculator.CalculateNumberByKeywordStory" time="22.538">
-    <error message="Expected enabled element was not enabled&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-KMNS09Q&apos;, ip: &apos;192.168.1.29&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: 
-Expected enabled element was not enabled
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-KMNS09Q', ip: '192.168.1.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: driver.version: unknown
-	at appium.features.calculator.CalculateNumberByKeywordStory.Subtract(CalculateNumberByKeywordStory.java:45)
-</error>
-    <system-err><![CDATA[[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+  <testcase name="Subtract" classname="appium.features.calculator.CalculateNumberByKeywordStory" time="17.197"/>
+  <testcase name="Addition" classname="appium.features.calculator.CalculateNumberByKeywordStory" time="11.027">
+    <failure message="&#10;Expected: &quot;=140&quot;&#10;     but: was &quot;=240&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
 
--------------------------------------------------------------------------------------
-     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
-    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
-   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
-    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
-.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
-|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
-                                                                                     
- News and tutorials at http://www.serenity-bdd.info                                  
- Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
- Join the Serenity Community on Rocket Chat at https://serenity-bdd.rocket.chat      
- Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
- Learn Serenity BDD online at http://serenity-dojo.com                               
--------------------------------------------------------------------------------------
-
-[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Calculate number by keyword story
-[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
- _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
-|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
-  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
-  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
-  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
-                                                                  
-
-TEST STARTED: Subtract
--------------------------------------------------------------------
-[main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 1
-May 11, 2020 4:28:22 PM org.openqa.selenium.remote.DesiredCapabilities chrome
-INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-[main] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
-[main] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
-Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 44923
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-May 11, 2020 4:28:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-[1589189310.247][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189310.354][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189310.455][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189310.558][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189310.804][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189310.906][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189311.009][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189311.112][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189311.213][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189311.314][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189311.416][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189311.517][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189311.619][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189311.721][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189311.822][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189311.924][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189312.029][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189312.131][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189312.233][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189312.335][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189312.438][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189312.540][SEVERE]: Timed out receiving message from renderer: 0.100
-]]></system-err>
-  </testcase>
-  <testcase name="Addition" classname="appium.features.calculator.CalculateNumberByKeywordStory" time="11.741">
-    <error message="Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created&#10;from chrome not reachable&#10;  (Session info: chrome=81.0.4044.138)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-KMNS09Q&apos;, ip: &apos;192.168.1.29&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: driver.version: ProvideNewDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00D75E93+2449043]&#10;	Ordinal0 [0x00CA8281+1606273]&#10;	Ordinal0 [0x00B9F732+522034]&#10;	Ordinal0 [0x00B994D2+496850]&#10;	Ordinal0 [0x00B99BBB+498619]&#10;	Ordinal0 [0x00B9AB15+502549]&#10;	Ordinal0 [0x00B96644+484932]&#10;	Ordinal0 [0x00BA0520+525600]&#10;	Ordinal0 [0x00B4CBB9+183225]&#10;	Ordinal0 [0x00B4BF2D+180013]&#10;	Ordinal0 [0x00B49E5B+171611]&#10;	Ordinal0 [0x00B31DD8+73176]&#10;	Ordinal0 [0x00B32E50+77392]&#10;	Ordinal0 [0x00B32DE9+77289]&#10;	Ordinal0 [0x00CBD7F7+1693687]&#10;	GetHandleVerifier [0x00E14576+522742]&#10;	GetHandleVerifier [0x00E142B4+522036]&#10;	GetHandleVerifier [0x00E29587+608775]&#10;	GetHandleVerifier [0x00E14DE6+524902]&#10;	Ordinal0 [0x00CB5BDC+1661916]&#10;	Ordinal0 [0x00CBF15B+1700187]&#10;	Ordinal0 [0x00CBF2C3+1700547]&#10;	Ordinal0 [0x00CD5135+1790261]&#10;	BaseThreadInitThunk [0x74738674+36]&#10;	RtlGetAppContainerNamedObjectPath [0x77D45E17+311]&#10;	RtlGetAppContainerNamedObjectPath [0x77D45DE7+263]&#10;). See below for more details." type="net.thucydides.core.webdriver.DriverConfigurationError">net.thucydides.core.webdriver.DriverConfigurationError: 
-Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created
-from chrome not reachable
-  (Session info: chrome=81.0.4044.138)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-KMNS09Q', ip: '192.168.1.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: driver.version: ProvideNewDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x00D75E93+2449043]
-	Ordinal0 [0x00CA8281+1606273]
-	Ordinal0 [0x00B9F732+522034]
-	Ordinal0 [0x00B994D2+496850]
-	Ordinal0 [0x00B99BBB+498619]
-	Ordinal0 [0x00B9AB15+502549]
-	Ordinal0 [0x00B96644+484932]
-	Ordinal0 [0x00BA0520+525600]
-	Ordinal0 [0x00B4CBB9+183225]
-	Ordinal0 [0x00B4BF2D+180013]
-	Ordinal0 [0x00B49E5B+171611]
-	Ordinal0 [0x00B31DD8+73176]
-	Ordinal0 [0x00B32E50+77392]
-	Ordinal0 [0x00B32DE9+77289]
-	Ordinal0 [0x00CBD7F7+1693687]
-	GetHandleVerifier [0x00E14576+522742]
-	GetHandleVerifier [0x00E142B4+522036]
-	GetHandleVerifier [0x00E29587+608775]
-	GetHandleVerifier [0x00E14DE6+524902]
-	Ordinal0 [0x00CB5BDC+1661916]
-	Ordinal0 [0x00CBF15B+1700187]
-	Ordinal0 [0x00CBF2C3+1700547]
-	Ordinal0 [0x00CD5135+1790261]
-	BaseThreadInitThunk [0x74738674+36]
-	RtlGetAppContainerNamedObjectPath [0x77D45E17+311]
-	RtlGetAppContainerNamedObjectPath [0x77D45DE7+263]
-). See below for more details.
-	at appium.features.calculator.CalculateNumberByKeywordStory.annaCanBrowseTheWeb(CalculateNumberByKeywordStory.java:29)
-</error>
+Expected: "=140"
+     but: was "=240"
+	at appium.features.calculator.CalculateNumberByKeywordStory.Addition(CalculateNumberByKeywordStory.java:38)
+</failure>
     <system-err><![CDATA[[main] INFO net.thucydides.core.requirements.PackageRequirementsTagProvider - Loading requirements from package requirements at: appium.features
-[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
-           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
-  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
- (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
-  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
- (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
-          \_\                                                            
+[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
 
-TEST FAILED: Subtract
---------------------------------------------------------------------------
-[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Anna clicks on The operator Minus
-[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - Expected enabled element was not enabled
+TEST PASSED: Subtract
+----------------------------------------------------------------------------
 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
@@ -192,162 +90,19 @@ TEST FAILED: Subtract
 TEST STARTED: Addition
 -------------------------------------------------------------------
 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 2
-May 11, 2020 4:28:44 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+May 11, 2020 8:30:53 PM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
 [main] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
 [main] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
-Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 48174
+Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 16220
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1589189331.645][WARNING]: Timed out connecting to Chrome, retrying...
-]]></system-err>
-  </testcase>
-  <testcase name="Multiply" classname="appium.features.calculator.CalculateNumberByKeywordStory" time="18.013">
-    <error message="Expected enabled element was not enabled&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-KMNS09Q&apos;, ip: &apos;192.168.1.29&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: 
-Expected enabled element was not enabled
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-KMNS09Q', ip: '192.168.1.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: driver.version: unknown
-	at appium.features.calculator.CalculateNumberByKeywordStory.Multiply(CalculateNumberByKeywordStory.java:55)
-</error>
-    <system-err><![CDATA[[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
-           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
-  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
- (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
-  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
- (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
-          \_\                                                            
-
-TEST FAILED WITH ERROR: Addition
----------------------------------------------------------------------
-[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Anna opens the https://www.desmos.com/scientific
-[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - Could not instantiate class org.openqa.selenium.chrome.ChromeDriver
-[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
- _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
-|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
-  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
-  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
-  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
-                                                                  
-
-TEST STARTED: Multiply
--------------------------------------------------------------------
-[main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 3
-May 11, 2020 4:28:56 PM org.openqa.selenium.remote.DesiredCapabilities chrome
-INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-[main] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
-[main] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
-Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 25379
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-May 11, 2020 4:29:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 11, 2020 8:30:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-[1589189341.962][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189342.064][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189342.166][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189342.267][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189342.541][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189342.642][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189342.744][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189342.846][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189342.947][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189343.048][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189343.150][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189343.251][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189343.352][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189343.454][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189343.556][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189343.658][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189343.760][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189343.861][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189343.962][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189344.064][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189344.166][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189344.270][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189344.371][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189344.472][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189344.574][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189344.676][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189344.780][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189344.881][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189344.982][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189345.083][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589203856.976][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589203857.296][SEVERE]: Timed out receiving message from renderer: 0.100
 ]]></system-err>
   </testcase>
-  <testcase name="Divide" classname="appium.features.calculator.CalculateNumberByKeywordStory" time="17.257">
-    <error message="Expected enabled element was not enabled&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-KMNS09Q&apos;, ip: &apos;192.168.1.29&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: 
-Expected enabled element was not enabled
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-KMNS09Q', ip: '192.168.1.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: driver.version: unknown
-	at appium.features.calculator.CalculateNumberByKeywordStory.Divide(CalculateNumberByKeywordStory.java:66)
-</error>
-    <system-err><![CDATA[[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
-           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
-  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
- (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
-  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
- (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
-          \_\                                                            
-
-TEST FAILED: Multiply
---------------------------------------------------------------------------
-[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Anna clicks on The operator Times
-[main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - Expected enabled element was not enabled
-[main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
- _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
-|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
-  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
-  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
-  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
-                                                                  
-
-TEST STARTED: Divide
--------------------------------------------------------------------
-[main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 4
-May 11, 2020 4:29:14 PM org.openqa.selenium.remote.DesiredCapabilities chrome
-INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-[main] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
-[main] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
-Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 6759
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-May 11, 2020 4:29:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-[1589189358.768][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189358.869][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189358.971][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189359.076][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189359.433][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189359.535][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189359.636][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189359.752][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189359.854][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189359.983][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189360.084][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189360.187][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189360.293][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189360.394][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189360.496][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189360.598][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189360.699][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189360.800][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189360.901][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189361.002][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189361.104][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189361.206][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189361.307][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189361.409][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189361.510][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189361.613][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189361.714][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189361.815][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189361.916][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189362.018][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189362.119][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189362.220][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189362.322][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589189362.423][SEVERE]: Timed out receiving message from renderer: 0.100
-]]></system-err>
-  </testcase>
+  <testcase name="Multiply" classname="appium.features.calculator.CalculateNumberByKeywordStory" time="10.318"/>
+  <testcase name="Divide" classname="appium.features.calculator.CalculateNumberByKeywordStory" time="11.628"/>
 </testsuite>

@@ -13,8 +13,16 @@ public class CalculationScreen{
                 .located(By.xpath("//span[@dcg-command=\"" + number + "\"]"));
     }
     public static final Target GET_OPERATOR(String operator){
+        String myOperator;
+        switch (operator) {
+            case "Plus": myOperator = "+"; break;
+            case "Minus": myOperator = "-"; break;
+            case "Times": myOperator = "*"; break;
+            default: myOperator = "/";
+        }
+
         return Target.the("The operator " + operator)
-                .located(By.xpath("//span[@dcg-command=\"" + operator + "\"]"));
+                .located(By.xpath("//span[@dcg-command=\"" + myOperator + "\"]"));
     }
 
     public static final Target RESULT = Target.the("calculation result")

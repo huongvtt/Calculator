@@ -32,43 +32,43 @@ public class CalculateNumberByKeywordStory {
     @Test
     public void Addition(){
         anna.attemptsTo(
-                CalculateNumber.withOperator("Plus").between(190).and(5).perform()
+                CalculateNumber.withOperator("Plus").between(190).and(50).perform()
         );
 
         anna.should(
-                seeThat(CalculationResults.Result(), equalTo("195"))
+                seeThat(CalculationResults.Result(), equalTo("=240"))
         );
     }
 
     @Test
     public void Subtract(){
         anna.attemptsTo(
-                CalculateNumber.withOperator("Minus").between(9).and(2).perform()
+                CalculateNumber.withOperator("Minus").between(9989).and(12).perform()
         );
         anna.should(
-                seeThat(CalculationResults.Result(), equalTo("7"))
+                seeThat(CalculationResults.Result(), equalTo("=9977"))
         );
     }
 
     @Test
     public void Multiply(){
         anna.attemptsTo(
-                CalculateNumber.withOperator("Times").between(3).and(5).perform()
+                CalculateNumber.withOperator("Times").between(30).and(50).perform()
         );
 
         anna.should(
-                seeThat(CalculationResults.Result(), equalTo("15"))
+                seeThat(CalculationResults.Result(), equalTo("=1500"))
         );
     }
 
     @Test
     public void Divide(){
         anna.attemptsTo(
-                CalculateNumber.withOperator("Divide").between(8).and(2).perform()
+                CalculateNumber.withOperator("Divide").between(480).and(20).perform()
         );
 
         anna.should(
-                seeThat(CalculationResults.Result(), equalTo("4"))
+                seeThat(CalculationResults.Result(), equalTo("=24"))
         );
     }
 
