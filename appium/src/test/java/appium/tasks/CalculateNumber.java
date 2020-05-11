@@ -25,8 +25,7 @@ public class CalculateNumber implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         char[] myDigits = this.firstNumber.toString().toCharArray();
-        int countDigits = myDigits.length;
-        for (int i=0; i<countDigits; i++){
+        for (int i=0; i<myDigits.length; i++){
             actor.attemptsTo(
                     Click.on(CalculationScreen.GET_NUMBER(myDigits[i]))
             );
@@ -37,8 +36,7 @@ public class CalculateNumber implements Task {
         );
 
         myDigits = this.secondNumber.toString().toCharArray();
-        countDigits = myDigits.length;
-        for (int i=0; i<countDigits; i++){
+        for (int i=0; i<myDigits.length; i++){
             actor.attemptsTo(
                     Click.on(CalculationScreen.GET_NUMBER(myDigits[i]))
             );

@@ -1,11 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: appium.features.calculator.CalculateNumberByKeywordStory
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 57.838 s <<< FAILURE! - in appium.features.calculator.CalculateNumberByKeywordStory
-Addition(appium.features.calculator.CalculateNumberByKeywordStory)  Time elapsed: 11.027 s  <<< FAILURE!
-java.lang.AssertionError: 
-
-Expected: "=140"
-     but: was "=240"
-	at appium.features.calculator.CalculateNumberByKeywordStory.Addition(CalculateNumberByKeywordStory.java:38)
-
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 50.17 s - in appium.features.calculator.CalculateNumberByKeywordStory

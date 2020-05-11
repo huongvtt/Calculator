@@ -1,7 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="appium.features.calculator.CalculateNumberByKeywordStory" skipped="0" tests="4" time="56.36" timestamp="2020-05-11 08:32:22"><testcase classname="appium.features.calculator.CalculateNumberByKeywordStory" name="Subtract"/><testcase classname="appium.features.calculator.CalculateNumberByKeywordStory" name="Addition"><failure message="&#10;Expected: &quot;=140&quot;&#10;     but: was &quot;=240&quot;" type="java.lang.AssertionError">
-Expected: "=140"
-     but: was "=240"</failure><system-err>
-Expected: "=140"
-     but: was "=240"&#13;
-appium.features.calculator.CalculateNumberByKeywordStory.Addition(CalculateNumberByKeywordStory.java:38)&#13;
-</system-err></testcase><testcase classname="appium.features.calculator.CalculateNumberByKeywordStory" name="Multiply"/><testcase classname="appium.features.calculator.CalculateNumberByKeywordStory" name="Divide"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="appium.features.calculator.CalculateNumberByKeywordStory" skipped="0" tests="4" time="44.42" timestamp="2020-05-11 10:07:32"><testcase classname="appium.features.calculator.CalculateNumberByKeywordStory" name="Subtract"/><testcase classname="appium.features.calculator.CalculateNumberByKeywordStory" name="Addition"/><testcase classname="appium.features.calculator.CalculateNumberByKeywordStory" name="Multiply"/><testcase classname="appium.features.calculator.CalculateNumberByKeywordStory" name="Divide"/></testsuite>
