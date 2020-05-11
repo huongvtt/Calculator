@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="appium.features.calculator.CalculateNumberByKeywordStory" skipped="0" tests="1" time="18.76" timestamp="2020-05-11 04:23:58"><testcase classname="appium.features.calculator.CalculateNumberByKeywordStory" name="Addition"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled&#13;
+appium.tasks.CalculateNumber.performAs(CalculateNumber.java:35)&#13;
+appium.features.calculator.CalculateNumberByKeywordStory.Addition(CalculateNumberByKeywordStory.java:34)&#13;
+</system-err></testcase></testsuite>

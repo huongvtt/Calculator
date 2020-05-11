@@ -134,7 +134,7 @@
             <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="fa fa-comments-o"></i> Stories</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 22-04-2020 23:11</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 11-05-2020 16:29</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -150,16 +150,16 @@
                             <div class="test-count-summary">
                                 <div>
 
-                                1 unsuccessful test
-                                    across 1 scenario
+                                6 unsuccessful tests
+                                    across 6 scenarios
 
                                      |
                                         <a href="b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.csv" title="Download CSV"> <i class="fa fa-download"
                                                                                         title="Download CSV"></i></a>
 
                                     <p class="report-info"><i class="fas fa-info-circle"></i> Note that results include
-                                        data-driven scenarios containing unsuccessful test ,
-                                        which may also contain results other than unsuccessful test .</p>
+                                        data-driven scenarios containing unsuccessful tests ,
+                                        which may also contain results other than unsuccessful tests .</p>
 
 
 
@@ -190,10 +190,10 @@
                                                             </div>
                                                             <script>
 
-                                                                var labels = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '100%', ' ', ' ', ' '];
+                                                                var labels = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '50%', ' ', '50%', ' ', ' ', ' '];
                                                                 // Our series array that contains series objects or in this case series data arrays
 
-                                                                var series = [{meta: 'Passing tests (automated)', value: 0}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 0}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 1}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
+                                                                var series = [{meta: 'Passing tests (automated)', value: 0}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 3}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 3}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
 
                                                                 // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
                                                                 // as you saw in the previous example
@@ -280,19 +280,19 @@
                                                                             </td>
                                                             </tr>
                                                             <tr>
-                                                                <td class="aggregate-result-count indented-error-category">
-                                                                    <i
-                                                                            class='fa fa-times-circle failure-icon'></i>&nbsp;Failed
-                                                                </td>
-                                                                <td class="automated-stats">0</td>
-                                                                <td class="automated-stats"> </td>
+                                                                    <td class="aggregate-result-count indented-error-category">
+                                                                        <a href="da5b0c51b332adf0ef993a9f086d6a1b51a3d800248ec6ae281212092f35bd37.html"><i
+                                                                                class='fa fa-times-circle failure-icon'></i>&nbsp;Failed</a>
+                                                                    </td>
+                                                                <td class="automated-stats">3</td>
+                                                                <td class="automated-stats">50%</td>
                                                             <tr>
                                                                     <td class="aggregate-result-count indented-error-category">
                                                                         <a href="c8a926210aeff57f8aa7ea799262d4b730915a909cd5ecd6a705b1fa13bc7aa8.html"><i
                                                                                 class='fa fa-exclamation-triangle error-icon'></i>&nbsp;Broken</a>
                                                                     </td>
-                                                                <td class="automated-stats">1</td>
-                                                                <td class="automated-stats">100%</td>
+                                                                <td class="automated-stats">3</td>
+                                                                <td class="automated-stats">50%</td>
                                                             <tr>
                                                                 <td class="aggregate-result-count indented-error-category">
                                                                     <i
@@ -303,7 +303,7 @@
                                                             </tr>
                                                             <tr class="summary-stats">
                                                                 <td class="aggregate-result-count">Total</td>
-                                                                <td class="automated-stats">1</td>
+                                                                <td class="automated-stats">6</td>
                                                                 <td class="automated-stats"></td>
                                                             </tr>
                                                             </tbody>
@@ -322,11 +322,19 @@
                                                         <table class="table">
                                                             <tbody>
                                                             <tr>
+                                                                <td class="failure-color top-list-title">
+                                                                    <a href="5dc2ab949914ea069aeeda1f2dda73d0c5fdb6dc077982712627628033736c61.html"><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> Element should be enabled exception</a>
+                                                                </td>
+                                                                <td><span
+                                                                        class="badge failure-badge">3</span>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
                                                                 <td class="error-color top-list-title">
                                                                     <a href="23d921076cab3dfa3de405f68c108e3102c71370c26ee830ef993cf18e0d8ad9.html"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a> Driver configuration error</a>
                                                                 </td>
                                                                 <td><span
-                                                                        class="badge failure-badge">1</span>
+                                                                        class="badge failure-badge">3</span>
                                                                 </td>
                                                             </tr>
                                                             </tbody>
@@ -338,7 +346,7 @@
                                                             <tbody>
                                                                 <tr>
                                                                     <td class="failure-color top-list-title"><a
-                                                                            href="ae2c723dd493e98cbd5e53aead0c5492be86e45d4cb3803d086f685478ddabb8.html">Add number by keyword story</a>
+                                                                            href="c91d38c7c9a91f5d988ce80a8c206d13761cfdf84c553bb6bec3e5fee3327b30.html">Calculate number by keyword story</a>
                                                                     </td>
                                                                     <td><span
                                                                             class="badge failure-badge">100%</span>
@@ -369,16 +377,81 @@
                                                 </tr>
                                                 </thead>
                                                 <tbody>
+                                                <tr class="scenario-result FAILURE">
+                                                    <td>
+                                                            <a href="c91d38c7c9a91f5d988ce80a8c206d13761cfdf84c553bb6bec3e5fee3327b30.html">Calculate number by keyword story</a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="6cb4e76ba950b46a6c26f783e4464f1598835d54519a51bd501c3fdf467dcd08.html">Subtract</a>
+                                                    </td>
+                                                    <td>3</td>
+                                                    <td>16:28:20</td>
+                                                    <td>00:22</td>
+                                                    <td><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
+                                                            style="display:none">FAILURE</span></td>
+                                                </tr>
                                                 <tr class="scenario-result ERROR">
                                                     <td>
-                                                            <a href="ae2c723dd493e98cbd5e53aead0c5492be86e45d4cb3803d086f685478ddabb8.html">Add number by keyword story</a>
+                                                            <a href="c91d38c7c9a91f5d988ce80a8c206d13761cfdf84c553bb6bec3e5fee3327b30.html">Calculate number by keyword story</a>
                                                     </td>
                                                     <td>
-                                                        <a href="62bfbf490442e3839b55aa3eaca00cb0832df05e6e1ff225db01837253217007.html">Addition</a>
+                                                        <a href="2c28a9e4e5bfbaad2139af23ea217315bb8f4a951517cd96259e6bc2e16e9284.html">Addition</a>
+                                                    </td>
+                                                    <td>3</td>
+                                                    <td>16:28:44</td>
+                                                    <td>00:11</td>
+                                                    <td><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a> <span
+                                                            style="display:none">ERROR</span></td>
+                                                </tr>
+                                                <tr class="scenario-result FAILURE">
+                                                    <td>
+                                                            <a href="c91d38c7c9a91f5d988ce80a8c206d13761cfdf84c553bb6bec3e5fee3327b30.html">Calculate number by keyword story</a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="53b25ddee5ab9d697b306800e52d71433b596a323b0b9295bca4d698cd8cf48d.html">Multiply</a>
+                                                    </td>
+                                                    <td>3</td>
+                                                    <td>16:28:56</td>
+                                                    <td>00:18</td>
+                                                    <td><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
+                                                            style="display:none">FAILURE</span></td>
+                                                </tr>
+                                                <tr class="scenario-result FAILURE">
+                                                    <td>
+                                                            <a href="c91d38c7c9a91f5d988ce80a8c206d13761cfdf84c553bb6bec3e5fee3327b30.html">Calculate number by keyword story</a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="3dd01b4d74f6903fa504c361d0e4cb9591cb11a365de6fdbcd74d17eade96ecf.html">Divide</a>
+                                                    </td>
+                                                    <td>3</td>
+                                                    <td>16:29:14</td>
+                                                    <td>00:17</td>
+                                                    <td><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
+                                                            style="display:none">FAILURE</span></td>
+                                                </tr>
+                                                <tr class="scenario-result ERROR">
+                                                    <td>
+                                                            <a href="925b8b0d1ce400a161541c5c0e18e6f77c99040e9497343af54583a337084805.html">Calculate number by keyword story</a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="ed4db3875858475e4d9a7049719aedc134fabb29c6e1b1705b68f67dce9d61d8.html">Subtract</a>
                                                     </td>
                                                     <td>0</td>
-                                                    <td>23:10:52</td>
-                                                    <td>00:02</td>
+                                                    <td>22:40:09</td>
+                                                    <td>00:04</td>
+                                                    <td><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a> <span
+                                                            style="display:none">ERROR</span></td>
+                                                </tr>
+                                                <tr class="scenario-result ERROR">
+                                                    <td>
+                                                            <a href="925b8b0d1ce400a161541c5c0e18e6f77c99040e9497343af54583a337084805.html">Calculate number by keyword story</a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="491b53b537a6bf74a7d2725ac0a5fd16e03f823b3eb8bfd8766312eb28a92df4.html">Addition</a>
+                                                    </td>
+                                                    <td>0</td>
+                                                    <td>22:47:02</td>
+                                                    <td>00:04</td>
                                                     <td><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a> <span
                                                             style="display:none">ERROR</span></td>
                                                 </tr>

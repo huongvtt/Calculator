@@ -1,0 +1,66 @@
+-------------------------------------------------------------------------------
+Test set: appium.features.calculator.CalculateNumberByKeywordStory
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 76.416 s <<< FAILURE! - in appium.features.calculator.CalculateNumberByKeywordStory
+Subtract(appium.features.calculator.CalculateNumberByKeywordStory)  Time elapsed: 22.538 s  <<< ERROR!
+net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: 
+Expected enabled element was not enabled
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KMNS09Q', ip: '192.168.1.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: unknown
+	at appium.features.calculator.CalculateNumberByKeywordStory.Subtract(CalculateNumberByKeywordStory.java:45)
+
+Addition(appium.features.calculator.CalculateNumberByKeywordStory)  Time elapsed: 11.741 s  <<< ERROR!
+net.thucydides.core.webdriver.DriverConfigurationError: 
+Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created
+from chrome not reachable
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KMNS09Q', ip: '192.168.1.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: ProvideNewDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00D75E93+2449043]
+	Ordinal0 [0x00CA8281+1606273]
+	Ordinal0 [0x00B9F732+522034]
+	Ordinal0 [0x00B994D2+496850]
+	Ordinal0 [0x00B99BBB+498619]
+	Ordinal0 [0x00B9AB15+502549]
+	Ordinal0 [0x00B96644+484932]
+	Ordinal0 [0x00BA0520+525600]
+	Ordinal0 [0x00B4CBB9+183225]
+	Ordinal0 [0x00B4BF2D+180013]
+	Ordinal0 [0x00B49E5B+171611]
+	Ordinal0 [0x00B31DD8+73176]
+	Ordinal0 [0x00B32E50+77392]
+	Ordinal0 [0x00B32DE9+77289]
+	Ordinal0 [0x00CBD7F7+1693687]
+	GetHandleVerifier [0x00E14576+522742]
+	GetHandleVerifier [0x00E142B4+522036]
+	GetHandleVerifier [0x00E29587+608775]
+	GetHandleVerifier [0x00E14DE6+524902]
+	Ordinal0 [0x00CB5BDC+1661916]
+	Ordinal0 [0x00CBF15B+1700187]
+	Ordinal0 [0x00CBF2C3+1700547]
+	Ordinal0 [0x00CD5135+1790261]
+	BaseThreadInitThunk [0x74738674+36]
+	RtlGetAppContainerNamedObjectPath [0x77D45E17+311]
+	RtlGetAppContainerNamedObjectPath [0x77D45DE7+263]
+). See below for more details.
+	at appium.features.calculator.CalculateNumberByKeywordStory.annaCanBrowseTheWeb(CalculateNumberByKeywordStory.java:29)
+
+Multiply(appium.features.calculator.CalculateNumberByKeywordStory)  Time elapsed: 18.013 s  <<< ERROR!
+net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: 
+Expected enabled element was not enabled
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KMNS09Q', ip: '192.168.1.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: unknown
+	at appium.features.calculator.CalculateNumberByKeywordStory.Multiply(CalculateNumberByKeywordStory.java:55)
+
+Divide(appium.features.calculator.CalculateNumberByKeywordStory)  Time elapsed: 17.257 s  <<< ERROR!
+net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: 
+Expected enabled element was not enabled
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KMNS09Q', ip: '192.168.1.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: unknown
+	at appium.features.calculator.CalculateNumberByKeywordStory.Divide(CalculateNumberByKeywordStory.java:66)
+

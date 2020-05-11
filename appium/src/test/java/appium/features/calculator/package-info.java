@@ -6,6 +6,6 @@
                 "I want to be able to look up the meaning of unusual and impressive words"},
         cardNumber = "#123"
 )
-package appium.features.search;
+package appium.features.calculator;
 
 import net.thucydides.core.annotations.Narrative;
